@@ -67,7 +67,7 @@ export default function App() {
       if (task.id === id) {
         return { ...task, completed: !task.completed}
       }
-      // 나머지는 그대ㅐ로 리턴한다
+      // 나머지는 그대로 리턴한다
       return task;
     })
 
